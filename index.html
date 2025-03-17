@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full-Screen Map with Leaflet and TomTom</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" type="text/css" href="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.0/maps/maps.css">
+</head>
+<body>
+  <div class="navbar">
+    <img src="seal.png" alt="Avatar" class="avatar">
+    <div class="nav-links">
+      <a href="#" class="nav-link">Dashboard</a>
+      <a href="#" class="nav-link">Settings</a>
+    </div>
+  </div>
+  <div class="search-container">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search location...">
+    </div>
+  </div>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.0/maps/maps-web.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
